@@ -30,17 +30,25 @@ header {
     border: 0;
 }
 
+ul {
+    list-style-type: none;   
+    text-decoration: none;
+    width: 100%;
+    padding-bottom: 72px;
+}
+
+.nav-ul li {
+    float: left;
+    width: 16%;
+    text-align: center;
+    border: solid 2px #daaa1b;
+}
+
 .nav-link {
     color: #daaa1b;
     font-size: 22px;
     list-style-type: none;   
     text-decoration: none;
-}
-
-.ul-nav {
-    list-style-type: none;   
-    text-decoration: none;
-    float: right;
 }
 
 .avatar {
