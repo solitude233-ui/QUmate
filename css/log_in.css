@@ -63,6 +63,12 @@ form {
     float: right;
     padding-top: 16px;
   }
+
+  .create_acc {
+    text-align: center;
+    float: right;
+  }    
+
   
   /* Change styles for span and cancel button on extra small screens */
   @media screen and (max-width: 300px) {
