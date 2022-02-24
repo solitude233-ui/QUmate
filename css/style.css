@@ -34,12 +34,14 @@ ul {
     list-style-type: none;   
     text-decoration: none;
     width: 100%;
+    padding-top: 72px;
     padding-bottom: 72px;
 }
 
 .ul-nav li {
+    display: block;
     float: left;
-    width: 16%;
+    width: 24%;
     text-align: center;
     border: solid 2px #daaa1b;
 }
