@@ -1,6 +1,6 @@
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 2px;
     border: 0;
     line-height: 1.5;
 }
@@ -62,6 +62,7 @@ ul {
 .log_in {
     float: right;
     Margin: 32px;
+    background-color: lightgreen;
 }
 
 .log_in a {
