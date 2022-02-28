@@ -37,11 +37,11 @@ header {
 }
 
 ul {
+    display: flex;
+    justify-content: center;
     list-style-type: none;   
     text-decoration: none;
-    width: 100%;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding: 72px 10px;
 }
 
 .ul-nav li {
