@@ -4,3 +4,42 @@
     list-style-type: none;   
     text-decoration: none;
 }
+main{
+    margin-top: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 2px;
+}
+h1{
+    font-family:'Neucha', Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: center;
+    color: #563ec2;
+}
+h3{
+    font-family: 'IBM Plex Serif', Georgia;
+    font-weight: bolder;
+    color:#563ec2;
+    background-color:lavender;
+    text-align: left;
+}
+input[type=checkbox]{
+    margin: 2px;
+    padding: 10px;
+}
+
+input[type=submit]{
+background-color:#563ec2;
+border: none;
+  color:aliceblue;
+  padding: 12px 24px;
+  font-family: 'Neucha', Helvetica, sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 6px 2px;
+  cursor: pointer;
+}
+
+footer{
+    margin: 6px;
+}
