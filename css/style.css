@@ -1,14 +1,13 @@
 html, body {
-    margin: 2px;
-    padding: 2px;
+    margin: 0;
+    padding: 0;
     border: 0;
     line-height: 1.5;
 }
 
-header {
-    margin: 0;
-    padding: 0;
-    border: 0;   
+main, footer {
+    margin: 4px;
+    padding: 4px;
 }
 
 body {
