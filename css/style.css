@@ -5,9 +5,14 @@ html, body {
     line-height: 1.5;
 }
 
-main, footer {
+main {
     margin: 4px;
     padding: 4px;
+}
+
+footer {
+    margin: 4px;
+    padding: 4px;    
 }
 
 body {
