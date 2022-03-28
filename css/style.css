@@ -26,55 +26,80 @@ main {
 }
 
 header {
-    background-image: url("https://solitude233-ui.github.io/QUmate/img/triC.png");
     text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.25);
 }
 
 #title {
     font-family: 'Neucha', Helvetica, sans-serif;
     text-align: center;
-    font-size: 40px;   
-    color: #563ec2;
-    padding-bottom: 16px;
+    font-size: 50px;   
+    color: red;
+    padding-top: 32px;
     margin: 0;
     border: 0;
 }
 
-ul {
+.ul-nav {
     display: flex;
     justify-content: center;
     list-style-type: none;   
     text-decoration: none;
-    padding: 72px 10px;
 }
 
 .ul-nav li {
     display: block;
     float: left;
-    width: 24%;
+    width: 50%;
     text-align: center;
-    border: solid 2px #daaa1b;
+    border: solid 2px orange;
 }
 
 .nav-link {
-    color: #daaa1b;
-    font-size: 22px;
-    list-style-type: none;   
+    color: black;
+    font-size: 22px;  
     text-decoration: none;
 }
 
-.avatar {
-    text-align: center;
-    width: 100%;
-    height: 50%;
+.mainP {
+    display: block;
+    background-color: #e7ce84;
 }
 
 .log_in {
     float: right;
     Margin: 32px;
-    background-color: lightgreen;
+    background-color: lightskyblue;
 }
 
 .log_in a {
     text-decoration: none;
 }
+
+.blue {
+    display: inline-block;
+    border: solid 5px blue;
+    margin: 40px;
+}
+
+.roommate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.roommate img {
+    width: 300px;
+    height: 400px;
+}
+
+.posting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.posting img {
+    width: 300px;
+    height: 400px;
+}
+

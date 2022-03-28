@@ -1,3 +1,44 @@
+html, body {
+    line-height: 1.5;
+}
+
+#title {
+    font-family: 'Neucha', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;   
+    color: red;
+    padding-top: 32px;
+    margin: 0;
+    border: 0;
+}
+
+.ul-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;   
+    text-decoration: none;
+    margin-bottom: 64px;
+}
+
+.ul-nav li {
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    border: solid 2px orange;
+}
+
+.nav-link {
+    color: black;
+    font-size: 22px;  
+    text-decoration: none;
+}
+
+.mainP {
+    display: block;
+    background-color: #e7ce84;
+}  
+
 .team p, #conduct {
     background-color: #bfeefd;
     border-radius: 12px;

@@ -5,21 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="Sean Guo">
     <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/log_in.css">
+    <link rel="stylesheet" href="C:\Users\233\QUmate\css\log_in.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
     <title>QUmate</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="nav-link">
-                <li>
-                    <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div id="title">QUmate</div>
+  </header>
+
+  <nav>
+    <ul class="ul-nav">
+        <li class="mainP">
+            <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/find_room.html" class="nav-link">Find a room</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/find_roomate.html" class="nav-link">Find a roommate</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/post_room.html" class="nav-link">Post a room</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/about_us.html" class="nav-link">About us</a>
+        </li>
+    </ul>
+  </nav>
 
     <form action="action_page.php" method="post">
         <div class="imgcontainer">
@@ -27,8 +42,8 @@
         </div>
       
         <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
+          <label for="uname"><b>Email</b></label>
+          <input type="text" placeholder="Enter your Queen's Email" name="uname" required>
       
           <label for="psw"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required>

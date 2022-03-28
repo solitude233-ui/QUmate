@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="Sean Guo">
     <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/create_acc.css">
+    <link rel="stylesheet" href="C:\Users\233\QUmate\css\create_acc.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
@@ -12,14 +13,29 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="nav-link">
-                <li>
-                    <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
-                </li>
-            </ul>
-        </nav>
+        <div id="title">QUmate</div>
     </header>
+    
+    <nav>
+        <ul class="ul-nav">
+            <li class="mainP">
+                <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
+            </li>
+            <li>
+                <a href="https://solitude233-ui.github.io/QUmate/find_room.html" class="nav-link">Find a room</a>
+            </li>
+            <li>
+                <a href="https://solitude233-ui.github.io/QUmate/find_roomate.html" class="nav-link">Find a roommate</a>
+            </li>
+            <li>
+                <a href="https://solitude233-ui.github.io/QUmate/post_room.html" class="nav-link">Post a room</a>
+            </li>
+            <li>
+                <a href="https://solitude233-ui.github.io/QUmate/about_us.html" class="nav-link">About us</a>
+            </li>
+        </ul>
+    </nav>
+
     <form action="action_page.php" style="border:1px solid #ccc">
         <div class="container">
           <h1>Sign Up</h1>
@@ -27,7 +43,7 @@
           <hr>
       
           <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
+          <input type="text" placeholder="Enter your Queen's Email" name="email" required>
       
           <label for="psw"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required>
@@ -45,4 +61,9 @@
         </div>
       </form>
 </body>
+
+<footer>
+    &copy; 2022 QUmate. All Rights Reserved.
+</footer>
+
 </html>

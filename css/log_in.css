@@ -1,8 +1,32 @@
+#title {
+  font-family: 'Neucha', Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50px;   
+  color: red;
+  padding-top: 32px;
+  margin: 0;
+  border: 0;
+}
+
+.ul-nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;   
+  text-decoration: none;
+}
+
+.ul-nav li {
+  display: block;
+  float: left;
+  width: 50%;
+  text-align: center;
+  border: solid 2px orange;
+}
+
 .nav-link {
-    color: #daaa1b;
-    font-size: 22px;
-    list-style-type: none;   
-    text-decoration: none;
+  color: black;
+  font-size: 22px;  
+  text-decoration: none;
 }
 
 form {
@@ -81,5 +105,7 @@ form {
     }
   }
 
-
+  footer {
+    margin-top: 64px;
+  }
   
