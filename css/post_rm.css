@@ -49,13 +49,13 @@ h1{
     font-family:'Neucha', Helvetica, sans-serif;
     font-size: 42px;
     text-align: center;
-    color: #563ec2;
+    color: orange;
 }
 h3{
     font-family: 'IBM Plex Serif', Georgia;
     font-weight: bolder;
-    color:#563ec2;
-    background-color:lavender;
+    color:white;
+    background-color:rgb(141, 207, 230);
     text-align: left;
 }
 input[type=checkbox]{
@@ -64,7 +64,7 @@ input[type=checkbox]{
 }
 
 input[type=submit]{
-background-color:#563ec2;
+background-color:orange;
 border: none;
   color:aliceblue;
   padding: 12px 24px;
