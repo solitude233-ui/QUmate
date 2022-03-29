@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="Sean Guo">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="post_rm.css">
+    <!--<link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/post_rm.css">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2b673463ee.js" crossorigin="anonymous"></script>
+    <title>QUmate</title>
+</head>
+
+<body>
+    <header>
+        QUmate
+    </header>
+        <nav>
+            <ul class="ul-nav">
+                <li>
+                    <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="https://solitude233-ui.github.io/QUmate/find_room.html" class="nav-link">Find a room</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Post</button>
+                        <div class="dropdown-content">
+                            <a href="https://solitude233-ui.github.io/QUmate/post_room.html" class="nav-link">Post a room</a>
+                            <a href="https://solitude233-ui.github.io/QUmate/post_profile.html" class="nav-link">Post a room</a>
+                        </div>
+                      </div>
+                </li>
+                <li>
+                    <a href="https://solitude233-ui.github.io/QUmate/msg.html" class="nav-link">Your messages</a>
+                </li>
+            </ul>
+        </nav>
+    <main class="content">
+
+
+        <h1>Post your profile to find awesome roommates!</h1>
+        <a href="https://solitude233-ui.github.io/QUmate/log_in.html">Create an account or login</a> to start posting.
+        
+        <h3>Basic information:</h3>
+        <label for="first">First name:</label>
+        <input type="text" id="first" name="first">
+        <label for="middle">Middle initial:</label>
+        <input type="text" style="width: 50px;" id="middle" name="middle">
+        <label for="last">Last name:</label>
+        <input type="text" id="last" name="last"><br>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age">
+    
+        Gender:
+        <label class="checkbox-inline">
+            <input type="checkbox" value=""> Female
+            <input type="checkbox" value=""> Male
+            <input type="checkbox" value=""> Others
+        </label>
+       <h3>School information:</h3>
+        <form action="/action_page.php">
+            <div class="custom-select" style="display:inline">
+                Degree:  
+                <select>
+                    <option value="0">Select your current degree:</option>
+                    <option value="1">Undergraduate</option>
+                    <option value="2">Masters</option>
+                    <option value="3">Ph.D.</option>
+                    <option value="4">Exchange / Part-time student</option>
+                </select><br>
+                Program:  
+                <select>
+                    <option value="0">Select your program:</option>
+                    <option value="1">Business</option>
+                    <option value="2">Computing</option>
+                    <option value="3">Creative Arts</option>
+                    <option value="4">Education</option>
+                    <option value="5">Engineering and Applied Science</option>
+                    <option value="6">Humanities</option>
+                    <option value="7">Languages</option>
+                    <option value="8">Life and Physical Sciences</option>
+                    <option value="9">Law</option>
+                    <option value="10">Medicine</option>
+                    <option value="11">Social Sciences</option>
+                </select>
+                <label for="major">Major:</label>
+                <input type="text" id="major" name="major"><br>
+                <label for="year">Current year of study:</label>
+                <input type="number" id="year" name="year" min="1" max="6"><br>
+            </div>
+
+
+        <h3>Add profile pictures:</h3>
+            <label for="files">Select files:</label>
+            <input type="file" id="files" name="files" multiple><br>
+
+
+            <label for="description">
+                <h3>Introduce yourself:</h3>
+            </label>
+            <input type="text" style="height: 200px;width: 500px;" id="description" name="description">
+
+
+         <h3>Accessibility</h3>
+         <label for="accomodation">If you need accomodation for disability, please describe below.</label><br>
+         <input type="text" style="height: 200px;width: 500px;" id="accomodation" name="accomodation">
+
+            <label for="website">
+                <h3>Add link to website/ other contact information:</h3>
+            </label>
+            <input type="text" id="website" name="website"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+
+    </main>
+
+    <footer>
+        &copy; 2022 QUmate. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
