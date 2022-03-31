@@ -44,6 +44,7 @@ header {
     justify-content: center;
     list-style-type: none;   
     text-decoration: none;
+    margin-top: 50px;
 }
 
 .ul-nav li {
@@ -65,14 +66,19 @@ header {
     background-color: #e7ce84;
 }
 
-.log_in {
+
+button {
     float: right;
-    Margin: 32px;
-    background-color: lightskyblue;
+    margin: 0 5px;
+    background-color: rgb(113, 182, 225);
+    color: white;
+    padding: 10px 5px
 }
 
-.log_in a {
+
+button a {
     text-decoration: none;
+    color: white;
 }
 
 .blue {
