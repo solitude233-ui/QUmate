@@ -19,7 +19,8 @@ body {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 16px;
     color: black;
-    background-image: url('img/background05.png');
+    /*background-image: url('img/background05.png'); */
+    background-image: url('https://github.com/solitude233-ui/QUmate/blob/main/img/background05.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
