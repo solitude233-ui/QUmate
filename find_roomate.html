@@ -6,21 +6,42 @@
     <meta name="viewport" content="Sean Guo">
     <link rel="stylesheet" href="C:\Users\233\QUmate\css\find_rmmate.css">
     <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/find_rmmate.css">
+    <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/style.css" type="text/css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
     <title>QUmate</title>
 
     <style>
+<<<<<<< HEAD
+        .nav-link {
+            color: #daaa1b;
+            font-size: 22px;
+            list-style-type: none;   
+            text-decoration: none;
+        }
+        .filter_box {
+            width: 210px;          
+=======
         .div1 {
             width: 10%;
+>>>>>>> c869caaad6edf6983f55f213e98926cc4d4e0127
             float: left;
             background-color: rgba(255, 199, 0, 0.4);
+            padding-left: 7px;
+            margin-bottom: 15px;
+            margin-left: 10px;
+            padding-bottom: 10px;
+
         }
 
         .div2 {
-            width: 89%;
-            float: right;
+            min-width: 20%;
+            max-width: 83%;
+/*            width: 85%;*/
+            float: left;
+            position: static;
+            margin: auto;
         }
         .div3 {
             width: 70%;
@@ -33,8 +54,59 @@
         .small {
             margin: 0;
         }
-        /*input.input-box, textarea { background-color: rgba(255, 199, 0, 0.2); }*/
+        .div5 {
+            /* width: 16%; */
+            width: 275px;
+            height: 405px;
+            /*background-color: rgb(150, 0, 0); */
+            background-color: rgb(255, 248, 223); 
+            float: left;
+            margin: 10px;
+            padding: 5px;
+            border: 2px solid black;
+        }
 
+        .div5:hover {
+            /*background-color: #000000;*/
+            /*background-color: #F7E496;*/
+            background-color: rgba(255, 199, 0, 0.4);
+
+        }
+        .person_img{
+            width: 100%;
+            height: 260px;
+            overflow: hidden;
+            object-fit: cover;
+      }
+        .gender_box {
+            width: 120px;
+            font-size:150%; 
+            float: right;
+            text-align: right;
+      }
+
+        .blue_box {
+            background-color: rgb(139, 232, 232); 
+            width: 60%;
+            padding: 10px;
+            text-align: center;
+            color: black;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            float: right;
+        }
+        /*body {
+            background-image: url('img/background.jpg');
+            background-size: 1000px;
+            background-attachment: fixed;
+            background-position: center;
+        }*/
+        /*body {
+            background-image: url('img/background03.png');
+            background-size: cover;
+            background-attachment: scroll;
+        }
+*/
 
     </style>
 </head>
@@ -47,6 +119,27 @@
         </div>
     </header>
 
+<<<<<<< HEAD
+        <nav>
+    <ul class="ul-nav">
+        <li class="mainP">
+            <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/find_room.html" class="nav-link">Find a room</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/find_roomate.html" class="nav-link">Find a roommate</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/post_room.html" class="nav-link">Post a room</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/about_us.html" class="nav-link">About us</a>
+        </li>
+    </ul>
+  </nav>
+=======
     <nav>
         <ul class="ul-nav">
             <li>
@@ -72,64 +165,310 @@
             </li>
         </ul>
     </nav>
+>>>>>>> c869caaad6edf6983f55f213e98926cc4d4e0127
 
     <main>
-        <div class = "div1">
-            <h2 class = "small"> Filters </h2> 
-           <!--  <div class = "div3">
-                <p class = "small">
-                Beds <br>
-                Baths </br>
-                </p>
-            </div> 
-            <div class = "div4">
-                 <p class = "small">
-                + &ensp;2&ensp; - <br>
-                + &ensp;1&ensp; - <br>
-                </p>
-            </div> -->
-            
-            <h3 class = "small"> Age </h3>
+        <div class = "filter_box">
+            <h2 style="border-bottom: 2px solid black; margin-right: 5px; margin-bottom: 5px"> Filters </h2>           
+            <h3 style="margin: 0;"> Age </h3>
             <label for "rent"> Minimum Age: </label>
             <input type="text" id="age_min" name="age_min">
             <label for "rent"> Maximum Age: </label>
-            <input type="text" id="age_max" name="age_max">
-            <br><br>
+            <input type="text" id="age_max" name="age_max"> <br><br>
 
+            <h3 style="margin: 0px;"> Property Type </h3>
+            <div class="custom-select" style="display:inline">
+                <select>
+                    <option value="all">Year:</option>
+                    <option value="1">1st year</option>
+                    <option value="2">2nd year</option>
+                    <option value="3">3rd year</option>
+                    <option value="4">4th year</option>
+                    <option value="4">Post Grad</option>
+                </select>
+            </div>
+            <div class="custom-select" style="display:inline">
+                <select>
+                    <option value="all">Program:</option>
+                    <option value="1">Art-Sci</option>
+                    <option value="2">Com-Sci</option>
+                    <option value="3">Commerce</option>
+                    <option value="4">Education</option>
+                    <option value="5">Engineering</option>
+                    <option value="6">Kinesiology</option>
+                    <option value="7">Nursing</option>                    
+                </select>
+            </div>
+            <br> <br>
 
-            <h3 class = "small"> Gender </h3>
-            <div class = "div4"> 
-                <input type="checkbox" id="female" name="female" value="Female"> <br>
-                <input type="checkbox" id="male" name="male" value="Male"> <br>
-                <input type="checkbox" id="other" name="other" value="Other"> <br>
+            <div class="filter">
+                <h3 style="margin: 0px;"> Gender </h3>
+                <div class = "models"> 
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="male" onchange="change();"/>Male</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="female" onchange="change();"/>Female</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="nonbinary" onchange="change();"/>Nonbinary</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="other" onchange="change();"/>Other</label>
+                    </div>
+                </div> 
                 <br>
+
+                <h3 style="margin: 0px;">Lifestyle</h3>
+                <div class = "processors"> 
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="smoking" onchange="change();"/>Smoking</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="cannabis" onchange="change();"/>Cannabis </label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="pet_friendly" onchange="change();"/>Pet Friendly</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="studious" onchange="change();"/>Studious</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="athletic" onchange="change();"/>Athletic</label>
+                    </div>
+
+                </div> <!-- End processors div -->
             </div>
-            <div class = "div3">
-                <label for "parking"> Female </label> <br>
-                <label for "parking"> Male </label> <br>
-                <label for "parking"> Other</label> <br>
-                <br>
-            </div>
+
         </div>
 
 
         <div class="div2">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
-            <img src="img/individualRoomate01.png" alt="123 House St">
+            <div class = "div5 male pet_friendly athletic"> 
+                <a href="https://solitude233-ui.github.io/QUmate/room_info.html" class="nav-link">
+                <img class = "person_img" src="img/people/sample_roommate01.jpg" alt="Harry Potter">
+                </a>
+                <h2 style="float: left" class = "small">Harry Potter</h2>
+                <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
+
+                <p style="font-size:150%; float: left" class = "small"> 22 years old </h3> 
+                <p class = "small gender_box"> Male </h3> 
+
+                <p style="float: left"class = "small"> Hi! I am clean and friendly roommate. I enjoy cooking and ... </p>
+
+                <p style="font-size:80%; float: left" class="small"> <i> 3rd year, Engineering </i></p>
+            </div>
+
+            <div class = "div5 male cannabis pet_friendly"> 
+                <img class = "person_img" src="img/people/sample_roommate02.jpg" alt="Ron Weasley">
+                <h2 style="float: left" class = "small">Ron Weasley</h2>
+                <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
+
+                <p style="font-size:150%; float: left" class = "small"> 20 years old </h3> 
+                <p class = "small gender_box"> Male </h3> 
+
+                <p style="float: left"class = "small"> I'm Ron! I am fun, friendly and I do not mind a bit of partying  ;)...</p>
+
+                <p style="font-size:80%; float: left" class="small"> <i> 2nd year, Art-Sci </i></p>
+            </div>
+
+            <div class = "div5 female studious athletic"> 
+                <img class = "person_img" src="img/people/sample_roommate03.jpg" alt="Ginny Weasley">
+                <h2 style="float: left" class = "small">Ginny Weasley</h2>
+                <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
+
+                <p style="font-size:150%; float: left" class = "small"> 19 years old </h3> 
+                <p class = "small gender_box"> Female </h3> 
+
+                <p style="float: left"class = "small"> Hi everyone, I'm a commers student looking for another roommate ...</p>
+
+                <p style="font-size:80%; float: left" class="small"> <i> 1st year, Commerce </i></p>
+            </div>
+
+            <div class = "div5 male pet_friendly cannabis"> 
+                <img class = "person_img" src="img/people/sample_roommate05.jpg" alt="Neville Longbottom">
+                <h2 style="float: left" class = "small">Neville Longbottom</h2>
+                <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
+
+                <p style="font-size:150%; float: left" class = "small"> 20 years old </h3> 
+                <p class = "small gender_box"> Male </h3> 
+
+                <p style="float: left"class = "small"> Hi friends! I am a 1st year student, I enjoy cleaning and playing video ... </p>
+
+                <p style="font-size:80%; float: left" class="small"> <i> 1st year, Commerce </i></p>
+            </div>
+
+            <div class = "div5 female studious athletic"> 
+                <img class = "person_img" src="img/people/sample_roommate06.jpg" alt="Fleur Delacour">
+                <h2 style="float: left" class = "small">Fleur Delacour</h2>
+                <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
+
+                <p style="font-size:150%; float: left" class = "small"> 20 years old </h3> 
+                <p class = "small gender_box"> Male </h3> 
+
+                <p style="float: left"class = "small"> Hello all! My name is Fleur. I am tidy and very a studious student ... </p>
+
+                <p style="font-size:80%; float: left" class="small"> <i> 4th year, Con-Ed </i></p>
+            </div>
+
+            <div class = "div5 male cannabis smoking"> 
+                <img class = "person_img" src="img/people/sample_roommate09.jpg" alt="Draco Malfoy">
+                <h2 style="float: left" class = "small">Draco Malfoy</h2>
+                <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
+
+                <p style="font-size:150%; float: left" class = "small"> 22 years old </h3> 
+                <p class = "small gender_box"> Male </h3> 
+
+                <p style="float: left"class = "small"> Hi everyone I'm Draco. I am clean, sociable and looking for ...</p>
+
+                <p style="font-size:80%; float: left" class="small"> <i> 3rd year, Commerce </i></p>
+            </div>  
+
+            <div class = "div5 nonbinary cannabis pet_friendly"> 
+                <img class = "person_img" src="img/people/sample_roommate10.jpg" alt="Luna Lovegood">
+                <h2 style="float: left" class = "small">Luna Lovegood</h2>
+                <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
+
+                <p style="font-size:150%; float: left" class = "small"> 18 years old </h3> 
+                <p class = "small gender_box"> Nonbinary </h3> 
+
+                <p style="float: left"class = "small"> Good evening one and all, I am Luna Lovegood and I love to read and ...</p>
+
+                <p style="font-size:80%; float: left" class="small"> <i> 1st year, Art-Sci </i></p>
+            </div>  
+
+            <div class = "div5 male athletic studious cannabis"> 
+                <img class = "person_img" src="img/people/sample_roommate11.jpg" alt="Cedric Diggory">
+                <h2 style="float: left" class = "small">Cedric Diggory</h2>
+                <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
+
+                <p style="font-size:150%; float: left" class = "small"> 21 years old </h3> 
+                <p class = "small gender_box"> Male </h3> 
+
+                <p style="float: left"class = "small"> Hello! I am an athlentic, clean and friendly! I love to bake & cook ...</p>
+
+                <p style="font-size:80%; float: left" class="small"> <i> 3rd year, Art-Sci </i></p>
+            </div>    
+
+            <div class = "div5 female studious pet_friendly"> 
+                <img class = "person_img" src="img/people/sample_roommate12.jpg" alt="Hermione Granger">
+                <h2 style="float: left" class = "small">Hermione Granger</h2>
+                <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
+
+                <p style="font-size:150%; float: left" class = "small"> 21 years old </h3> 
+                <p class = "small gender_box"> Female </h3> 
+
+                <p style="float: left"class = "small"> I am very studious, friendly & clean. I am looking foward to rooming ...</p>
+
+                <p style="font-size:80%; float: left" class="small"> <i> 3rd year, Con-Ed </i></p>
+            </div>    
+
+            <div class = "div5 female studious"> 
+                <img class = "person_img" src="img/people/sample_roommate04.jpg" alt="Cho Chang  ">
+                <h2 style="float: left" class = "small">Cho Chang &nbsp;&nbsp;&nbsp; </h2>
+                <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
+
+                <p style="font-size:150%; float: left" class = "small"> 23 years old </h3> 
+                <p class = "small gender_box"> Female </h3> 
+
+                <p style="float: left"class = "small"> Hello, I a very studious student and tend to keep to myself but enjoy...</p>
+
+                <p style="font-size:80%; float: left" class="small"> <i> 5th year, Con-Ed </i></p>
+            </div>         
+        </div>
+        <div class = "div2">
+            <div class = "blue_box">
+                <h3 style ="margin: 5px"> Your safety is our top priority! </h3>
+                <p style ="margin: 5px"> Every member is a verified Queen’s University Student and follows our code of conduct. As indicated by the blue checkmark. </p>
+            </div>
         </div>
 
     </main>
-</body>
+<script type="text/javascript">
+    function change() {
+      var modelCbs = document.querySelectorAll(".models input[type='checkbox']");
+      var processorCbs = document.querySelectorAll(".processors input[type='checkbox']");
+      var filters = {
+        models: getClassOfCheckedCheckboxes(modelCbs),
+        processors: getClassOfCheckedCheckboxes(processorCbs)
+      };
 
+      filterResults(filters);
+    }
+
+    function getClassOfCheckedCheckboxes(checkboxes) {
+      var classes = [];
+
+      if (checkboxes && checkboxes.length > 0) {
+        for (var i = 0; i < checkboxes.length; i++) {
+          var cb = checkboxes[i];
+
+          if (cb.checked) {
+            classes.push(cb.getAttribute("rel"));
+          }
+        }
+      }
+      return classes;
+    }
+
+    function filterResults(filters) {
+      var rElems = document.querySelectorAll(".div2 div");
+      var hiddenElems = [];
+
+      if (!rElems || rElems.length <= 0) {
+        return;
+      }
+
+      for (var i = 0; i < rElems.length; i++) {
+        var el = rElems[i];
+
+        if (filters.models.length > 0) {
+          var isHidden = true;
+
+          for (var j = 0; j < filters.models.length; j++) {
+            var filter = filters.models[j];
+
+            if (el.classList.contains(filter)) {
+              isHidden = false;
+              break;
+            }
+          }
+
+          if (isHidden) {
+            hiddenElems.push(el);
+          }
+        }
+
+        if (filters.processors.length > 0) {
+          var isHidden = true;
+
+          for (var j = 0; j < filters.processors.length; j++) {
+            var filter = filters.processors[j];
+
+            if (el.classList.contains(filter)) {
+              isHidden = false;
+              break;
+            }
+          }
+
+          if (isHidden) {
+            hiddenElems.push(el);
+          }
+        }
+      }
+
+      for (var i = 0; i < rElems.length; i++) {
+        rElems[i].style.display = "block";
+      }
+
+      if (hiddenElems.length <= 0) {
+        return;
+      }
+
+      for (var i = 0; i < hiddenElems.length; i++) {
+        hiddenElems[i].style.display = "none";
+      }
+    }
+</script>
+</body>
 </html>
