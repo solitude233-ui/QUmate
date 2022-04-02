@@ -118,6 +118,12 @@ border: none;
   margin: 6px 2px;
   cursor: pointer;
 }
+body {
+    background-image: url('img/background05.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
 
 footer{
     margin: 6px;
