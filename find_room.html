@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="Sean Guo">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/find_rm.css" type="text/css"> 
+    <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/style.css" type="text/css"> 
+
+   <!--  <link rel="stylesheet" href="css/find_rm.css" type="text/css" /> -->
+
+=======
     <link rel="stylesheet" href="C:\Users\233\QUmate\css\find_rm.css">
     <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/find_rm.css">
+>>>>>>> c869caaad6edf6983f55f213e98926cc4d4e0127
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
@@ -18,21 +26,48 @@
             margin: 2px;
             display: none;
         }
+<<<<<<< HEAD
+       .nav-link {
+            color: #daaa1b;
+            font-size: 22px;
+            list-style-type: none;   
+            text-decoration: none;
+        }
+        .filter_box {
+/*            width: 10%;*/  
+            width: 210px;          
+=======
         .div1 {
             width: 10%;
+>>>>>>> c869caaad6edf6983f55f213e98926cc4d4e0127
             float: left;
             background-color: rgba(255, 199, 0, 0.4);
+            padding-left: 7px;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            /*margin-left: 10px;*/
+        }
+
+        .left_container {
+            width: 210px;
+            float: left;
+            margin-left: 10px;
+            margin-right: 15px;
         }
 
         .div2 {
-            width: 89%;
-            float: right;
+            min-width: 20%;
+            max-width: 83%;
+            /*min-width: 20%;
+            max-width: 85%;*/
+            float: left;
+            position: static;
         }
         .div3 {
             width: 70%;
             float: left;
         }
-        .div4 {
+        .checkbox_box {
             width: 30%;
             float: right;
         }
@@ -40,9 +75,66 @@
             margin: 0;
         }
 
+        .div5 {
+            /* width: 16%; */
+            width: 275px;
+            height: 405px;
+            /*background-color: rgb(150, 0, 0); */
+            background-color: rgb(255, 248, 223); 
+            float: left;
+            margin: 10px;
+            padding: 5px;
+            border: 2px solid black;
+        }
+
+        .div5:hover {
+            /*background-color: #000000;*/
+            /*background-color: #F7E496;*/
+            background-color: rgba(255, 199, 0, 0.4);
+            margin: 10px;
+
+        }
+
+        .price_square{
+            /*background-color: rgb(71, 220, 220); */
+            background-color: rgb(139, 232, 232); 
+            float: right;
+            margin: 0px;
+            padding: 1px;
+            color: white;
+            width: 80px;
+            text-align: center;
+        }
+
+        .legend {
+            background-color: rgb(139, 232, 232); 
+            float: left;
+            width: 210px; 
+        }            
+        /*input.input-box, textarea { background-color: rgba(255, 199, 0, 0.2); }*/
+        .house_img{
+            width: 100%;
+            height: 260px;
+            overflow: hidden;
+            object-fit: cover;
+
+            /*background-color: rgb(0, 150, 0); */
+        }
+        .icon{
+            width: 50px;
+            height:50px;
+            float: left;
+        }
+        /*body {
+            background-image: url('img/background05.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }*/
 
     </style>
 </head>
+
 <body>
     <header>
         <div id="title">QUmate</div>
@@ -53,6 +145,26 @@
     </header>
 
     <nav>
+<<<<<<< HEAD
+    <ul class="ul-nav">
+        <li class="mainP">
+            <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/find_room.html" class="nav-link">Find a room</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/find_roomate.html" class="nav-link">Find a roommate</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/post_room.html" class="nav-link">Post a room</a>
+        </li>
+        <li>
+            <a href="https://solitude233-ui.github.io/QUmate/about_us.html" class="nav-link">About us</a>
+        </li>
+    </ul>
+  </nav>
+=======
         <ul class="ul-nav">
             <li>
                 <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
@@ -77,129 +189,367 @@
             </li>
         </ul>
     </nav>
+>>>>>>> c869caaad6edf6983f55f213e98926cc4d4e0127
 
     <main>
-        <div class = "div1">
-            <h2> Filters </h2>
-            <h3 class = "small"> Property Type </h3>
-            <div class="custom-select" style="display:inline">
-                <select>
-                    <option value="all">Select property type:</option>
-                    <option value="1">Condo</option>
-                    <option value="2">Apartment</option>
-                    <option value="3">House</option>
-                    <option value="4">Room</option>
-                </select>
-            </div>
-            <br> <br>
+        <div class="left_container">
+            <div class = "filter_box">
+                <h2 style="border-bottom: 2px solid black; margin-right: 5px; margin-bottom: 5px;"> Filters </h2>
+                <h3 style="margin: 0px;"> Property Type </h3>
+                <div class="custom-select" style="display:inline">
+                    <select>
+                        <option value="all">Select property type:</option>
+                        <option value="1">Condo</option>
+                        <option value="2">Apartment</option>
+                        <option value="3">House</option>
+                        <option value="4">Room</option>
+                    </select>
+                </div> <br> <br>
+                <h3 style="margin: 0;"> Floor Plan </h3>
+                <label for="bedroom">Beds:  &ensp;</label>
+                <input type="number" id="bedroom" name="bedroom" min="1" max="10">
+                <br>
+                <label for="bathroom">Baths: &ensp;</label>
+                <input type="number" id="bathroom" name="bathroom" min="1" max="10">
+                <br><br>
+                
+                <h3 style="margin: 0;"> Lease Terms </h3>
+                <label for "rent"> Minimum rent: </label>
+                <input type="text" id="rent_min" name="rent_min">
+                <label for "rent"> Maximum rent: </label>
+                <input type="text" id="rent_max" name="rent_max">
+                <br><br>
+            
+                <div class="filter">
+                    <h3 style="margin: 0;">Features & Amenities</h3>
+                    <div class = "models"> 
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="parking" onchange="change();"/>Parking</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="ac" onchange="change();"/>AC</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="laundry" onchange="change();"/>Laundry</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="utilities" onchange="change();"/>Utilities</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="wifi" onchange="change();"/>Wifi</label>
+                        </div> 
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="furnished" onchange="change();"/>Furnished</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="dishwasher" onchange="change();"/>Dishwasher</label>
+                        </div>  
+                    </div> <!-- End models div -->
+                    <br>
 
+                    <h3 style="margin: 0;">Accessibilitiy Features</h3>
+                    <div class = "processors"> 
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="step_free" onchange="change();"/>Step-Free</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="accesible_parking" onchange="change();"/>Accesible Parking</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="toilet_bar" onchange="change();"/>Toilet Grab Bar</label>
+                        </div> 
+                    </div> <!-- End processors div -->
+                </div> <!-- End filter div -->
+            </div> <!-- End filter_box div -->
 
-            <h3 class = "small"> Floor Plan </h3>
-            <label for="bedroom">Beds:  &ensp;</label>
-            <input type="number" id="bedroom" name="bedroom" min="1" max="10">
-            <br>
-            <label for="bathroom">Baths: &ensp;</label>
-            <input type="number" id="bathroom" name="bathroom" min="1" max="10">
-            <br><br>
-     
-           <!--  <div class = "div3">
-                <p class = "small">
-                Beds <br>
-                Baths </br>
-                </p>
+            <div class = "filter_box legend"> 
+                <h3 style="border-bottom: 2px solid black; margin-right: 5px;"> Legend </h3>
+                <div style= "float: left; width: 35px"> 
+                    <img src="img/icon-UtilitiesON.png" alt = "lightblub" width="30" height="30">
+                    <img src="img/icon-LaundryON.png" alt = "landry" width="30" height="30">
+                    <img src="img/icon-AcON.png" alt = "ac" width="30" height="30">
+                    <img src="img/icon-CarON.png" alt = "parking" width="30" height="30">
+                    <img src="img/icon-WifiON.png" alt = "wifi" width="30" height="30">
+                </div>
+                <div style = "font-size: 110%; line-height: 20px">
+                    <p> Utilities included <br></p>
+                    <p> Laundry on-site <br></p>
+                    <p> AC available <br></p>
+                    <p> Parking available <br></p>
+                    <p> Wifi included <br></p>
+                </div>
+            </div>     
+        </div>
+
+        <div class="div2">  
+            
+            <div class="div5 laundry">
+                <a href="https://solitude233-ui.github.io/QUmate/room_info.html" class="nav-link">
+                    <img class = "house_img" src="img/houses/sample_house.jpeg" alt="288 Division St">
+                </a>
+                <h2 style="float: left;" class = "small"> 288 Division St </h2>
+                <h2 class = "price_square"> $435 </h2>
+
+                <p> </p>
+                <p style="margin: 0;"> </br> 4 beds <br>
+                                        2 baths </p>
+                <img src="img/icon-UtilitiesOFF.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryON.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcOFF.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarOFF.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiOFF.png" alt = "wifi" width="50" height="50">
             </div> 
-            <div class = "div4">
-                 <p class = "small">
-                + &ensp;2&ensp; - <br>
-                + &ensp;1&ensp; - <br>
-                </p>
-            </div> -->
-            
-            <h3 class = "small"> Lease Terms </h3>
-            <label for "rent"> Minimum rent: </label>
-            <input type="text" id="rent_min" name="rent_min">
-            <label for "rent"> Maximum rent: </label>
-            <input type="text" id="rent_max" name="rent_max">
-            <div class = "div4">
-                <input type="checkbox" id="furnished" name="furnished" value="Furnished"> <br> <br>
-            </div>
-            <div class = "div3">
-                    <label for "parking"> Furnished </label> <br> <br>
-            </div>
-            
 
+            <div class="div5 utilities laundry ac furnished">
+                <img class = "house_img" src="img/houses/sample_house02.jpg" alt="125 King St">
+                <h2 style="float: left" class = "small"> 125 King St E</h2>
+                <h2 class = "price_square"> $933 </h2>
 
-
-            <h3 class = "small"> Features & Amenities </h3>
-            <div class = "div4"> 
-                <input type="checkbox" onclick="filterSelection('car')" id="parking" name="parking" value="Parking"> <br>
-                <input type="checkbox" id="pets_friendly" name="pets_friendly" value="Pets_friendly"> <br>
-                <input type="checkbox" id="laundry" name="laundry" value="Laundry"> <br>
-                <input type="checkbox" id="AC" name="AC" value="AC"> <br>
-                <input type="checkbox" id="dishwasher" name="dishwasher" value="Dishwasher"> <br>
-
+                <p> </p>
+                <p class = "small"></br> 2 beds <br>
+                                        1 baths </p>
+                <img src="img/icon-UtilitiesON.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryON.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcON.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarOFF.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiOFF.png" alt = "wifi" width="50" height="50">
             </div>
 
-            <div class = "div3">
-                <label for "parking"> Parking </label> <br>
-                <label for "parking"> Pets friendly </label> <br>
-                <label for "parking"> Laundry</label> <br>
-                <label for "parking"> AC </label> <br>
-                <label for "parking"> Dishwasher </label> <br>
+            <div class="div5 laundry ac parking furnished dishwasher step_free">
+                <img class = "house_img" src="img/houses/sample_house03.jpg" alt="337 Princess St">
+                <h2 style="float: left" class = "small"> 337 Princess St</h2>
+                <h2 class = "price_square"> $1,230 </h2>
+                <p> </p>
+                <p class = "small"></br> 1 beds <br>
+                                        1 baths </p>
+                <img src="img/icon-UtilitiesOFF.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryON.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcON.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarON.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiOFF.png" alt = "wifi" width="50" height="50">
             </div>
-            
-            <!-- <div class = "div3">
-                <p class = "small"> 
-                Parking <br>
-                Laundry on site <br>
-                Utilities included <br>
-                Pet friendly <br>
-                </p>
+
+            <div class="div5 laundry parking">
+                <img class = "house_img" src="img/houses/sample_house04.jpg" alt="229 Princess St">
+                <h2 style="float: left" class = "small"> 299 Princess St</h2>
+                <h2 class = "price_square"> $630 </h2>
+                <p> </p>
+                <p class = "small"></br> 3 beds <br>
+                                        1 baths </p>
+                <img src="img/icon-UtilitiesOFF.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryON.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcOFF.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarON.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiOFF.png" alt = "wifi" width="50" height="50">
             </div>
-            <div class = "div4">
-                <p class = "small"> 
-                [ ] <br>
-                [ ] <br>
-                [ ] <br>
-                [ ] <br>
-                </p>
-            </div>-->
 
-            <h3 class = "small"> Accessibilitiy Features </h3>
-            <div class = "div3">
-                <p class = "small"> 
-                    Step-free entrence <br>
-                </p>
+            <div class="div5 laundry ac parking utilities wifi step_free dishwasher">
+                <img class = "house_img" src="img/houses/sample_house05.jpg" alt="258 Albert St">
+                <h2 style="float: left" class = "small"> 258 Albert St</h2>
+                <h2 class = "price_square"> $869 </h2>
+                <p> </p>
+                <p class = "small"></br> 2 beds <br>
+                                        1 baths </p>
+                <img src="img/icon-UtilitiesON.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryON.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcON.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarON.png" alt = "parking" width="50" height="50">
+               <img src="img/icon-WifiON.png" alt = "wifi" width="50" height="50">
             </div>
-            <div class = "div4">
-                <p class = "small"> 
-                    [ ] <br>
-                </p>
+
+            <div class="div5 ac dishwasher">
+                <img class = "house_img" src="img/houses/sample_house06.jpg" alt="101 Union St">
+                <h2 style="float: left" class = "small"> 101 Union St</h2>
+                <h2 class = "price_square"> $770 </h2>
+                <p> </p>
+                <p class = "small"></br> 5 beds <br>
+                                        2 baths </p>
+                <img src="img/icon-UtilitiesOFF.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryOFF.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcON.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarOFF.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiOFF.png" alt = "wifi" width="50" height="50">
             </div>
-        </div>
+            <div class="div5 ac parking utilities furnished">
+                <img class = "house_img" src="img/houses/sample_house07.jpg" alt="100 Union St">
+                <h2 style="float: left" class = "small"> 100 Union St</h2>
+                <h2 class = "price_square"> $1,345 </h2> <p> </p>
+                <p class = "small"></br> 1 beds <br>
+                                        1 baths </p>
+                <img src="img/icon-UtilitiesON.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryOFF.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcON.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarON.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiOFF.png" alt = "wifi" width="50" height="50">
+            </div>
 
+            <div class="div5 ac laundry furnished">
+                <img class = "house_img" src="img/houses/sample_house08.jpg" alt="61 Quebec St">
+                <h2 style="float: left" class = "small"> 61 Quebec St</h2>
+                <h2 class = "price_square"> $1,345 </h2> <p> </p>
+                <p class = "small"></br> 1 beds <br>
+                                        1 baths </p>
+                <img src="img/icon-UtilitiesOFF.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryON.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcON.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarOFF.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiOFF.png" alt = "wifi" width="50" height="50">
+            </div>
 
-        <div class="div2">
-            <a href="https://solitude233-ui.github.io/QUmate/room_info.html" class="nav-link">
-                <img src="img/individualListing.png" alt="123 House St">
-            </a>
+            <div class="div5 ac parking laundry step_free accesible_parking">
+                <img class = "house_img" src="img/houses/sample_house09.jpg" alt="276 Brock St">
+                <h2 style="float: left" class = "small"> 276 Brock St</h2>
+                <h2 class = "price_square"> $863 </h2> <p> </p>
+                <p class = "small"></br> 6 beds <br>
+                                        2 baths </p>
+                <img src="img/icon-UtilitiesOFF.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryON.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcON.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarON.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiOFF.png" alt = "wifi" width="50" height="50">
+            </div>
 
-            <img src="img/individualListing.png" alt="123 House St">
+            <div class="div5 ac laundry">
+                <img class = "house_img" src="img/houses/sample_house10.jpg" alt="129 Division St">
+                <h2 style="float: left" class = "small"> 129 Division St</h2>
+                <h2 class = "price_square"> $960 </h2> <p> </p>
+                <p class = "small"></br> 2 beds <br>
+                                        1 baths </p>
+                <img src="img/icon-UtilitiesOFF.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryON.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcON.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarOFF.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiOFF.png" alt = "wifi" width="50" height="50">
+            </div>
 
-            <img src="img/individualListing02.png" alt="123 House St">
-            <img src="img/individualListing.png" alt="123 House St">
-            <img src="img/individualListing02.png" alt="123 House St">
-            <img src="img/individualListing.png" alt="123 House St">
-            <img src="img/individualListing.png" alt="123 House St">
-            <img src="img/individualListing02.png" alt="123 House St">
-            <img src="img/individualListing.png" alt="123 House St">
-            <img src="img/individualListing.png" alt="123 House St">
-            <img src="img/individualListing02.png" alt="123 House St">
-            <img src="img/individualListing.png" alt="123 House St">
-            <img src="img/individualListing.png" alt="123 House St">
-        </div>
+            <div class="div5">
+                <img class = "house_img" src="img/houses/sample_house11.jpg" alt="459 Palace Rd">
+                <h2 style="float: left" class = "small"> 459 Palace Rd</h2>
+                <h2 class = "price_square"> $550 </h2> <p> </p>
+                <p class = "small"></br> 2 beds <br>
+                                        1 baths </p>
+                <img src="img/icon-UtilitiesOFF.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryOFF.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcOFF.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarOFF.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiOFF.png" alt = "wifi" width="50" height="50">
+            </div>
 
+            <div class="div5 ac parking utilities laundry wifi">
+                <img class = "house_img" src="img/houses/sample_house12.jpg" alt="777 Brock St">
+                <h2 style="float: left" class = "small"> 777 Brock St</h2>
+                <h2 class = "price_square"> $1,545 </h2> <p> </p>
+                <p class = "small"></br> 3 beds <br>
+                                        1 baths </p>
+                <img src="img/icon-UtilitiesON.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryON.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcON.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarON.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiON.png" alt = "wifi" width="50" height="50">
+            </div>
+
+            <div class="div5 utilities wifi ac">
+                <img class = "house_img" src="img/houses/sample_house14.jpg" alt="386 Earl St">
+                <h2 style="float: left" class = "small"> 386 Earl St</h2>
+                <h2 class = "price_square"> $960 </h2> <p> </p>
+                <p class = "small"></br> 2 beds <br>
+                                        1 baths </p>
+                <img src="img/icon-UtilitiesON.png" alt = "lightblub" width="50" height="50">
+                <img src="img/icon-LaundryOFF.png" alt = "landry" width="50" height="50">
+                <img src="img/icon-AcON.png" alt = "ac" width="50" height="50">
+                <img src="img/icon-CarOFF.png" alt = "parking" width="50" height="50">
+                <img src="img/icon-WifiON.png" alt = "wifi" width="50" height="50">
+            </div>
+        </div>    
     </main>
-</body>
 
+
+
+ <script type="text/javascript">
+    function change() {
+      var modelCbs = document.querySelectorAll(".models input[type='checkbox']");
+      var processorCbs = document.querySelectorAll(".processors input[type='checkbox']");
+      var filters = {
+        models: getClassOfCheckedCheckboxes(modelCbs),
+        processors: getClassOfCheckedCheckboxes(processorCbs)
+      };
+
+      filterResults(filters);
+    }
+
+    function getClassOfCheckedCheckboxes(checkboxes) {
+      var classes = [];
+
+      if (checkboxes && checkboxes.length > 0) {
+        for (var i = 0; i < checkboxes.length; i++) {
+          var cb = checkboxes[i];
+
+          if (cb.checked) {
+            classes.push(cb.getAttribute("rel"));
+          }
+        }
+      }
+      return classes;
+    }
+
+    function filterResults(filters) {
+      var rElems = document.querySelectorAll(".div2 div");
+      var hiddenElems = [];
+
+      if (!rElems || rElems.length <= 0) {
+        return;
+      }
+
+      for (var i = 0; i < rElems.length; i++) {
+        var el = rElems[i];
+
+        if (filters.models.length > 0) {
+          var isHidden = true;
+
+          for (var j = 0; j < filters.models.length; j++) {
+            var filter = filters.models[j];
+
+            if (el.classList.contains(filter)) {
+              isHidden = false;
+              break;
+            }
+          }
+
+          if (isHidden) {
+            hiddenElems.push(el);
+          }
+        }
+
+        if (filters.processors.length > 0) {
+          var isHidden = true;
+
+          for (var j = 0; j < filters.processors.length; j++) {
+            var filter = filters.processors[j];
+
+            if (el.classList.contains(filter)) {
+              isHidden = false;
+              break;
+            }
+          }
+
+          if (isHidden) {
+            hiddenElems.push(el);
+          }
+        }
+      }
+
+      for (var i = 0; i < rElems.length; i++) {
+        rElems[i].style.display = "block";
+      }
+
+      if (hiddenElems.length <= 0) {
+        return;
+      }
+
+      for (var i = 0; i < hiddenElems.length; i++) {
+        hiddenElems[i].style.display = "none";
+      }
+    }
+</script>
+</body>
 </html>
