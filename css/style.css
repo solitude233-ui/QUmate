@@ -3,6 +3,10 @@ html, body {
     padding: 0;
     border: 0;
     line-height: 1.5;
+    background-image: url('https://github.com/solitude233-ui/QUmate/blob/main/img/background05.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 main {
@@ -26,13 +30,13 @@ body {
     background-position: center; */
 }
 
-/*main {
+*main {
     background-color: #fffefb;
-    background-image: url('img/background05.png');
+    /* background-image: url('img/background05.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
-} */
+    background-position: center; */
+}
 
 header {
     text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.25);
