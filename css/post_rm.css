@@ -12,6 +12,20 @@ html, body {
     border: 0;
 }
 
+header button {
+    float: right;
+    margin: 0 5px;
+    background-color: rgb(113, 182, 225);
+    color: white;
+    padding: 10px 5px
+}
+
+
+header button a {
+    text-decoration: none;
+    color: white;
+}
+
 .ul-nav {
     display: flex;
     justify-content: center;
