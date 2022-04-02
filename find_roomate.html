@@ -15,12 +15,13 @@
         .filter_box {
             width: 210px;          
             float: left;
-            background-color: rgba(255, 199, 0, 0.4);
+            background-color: rgb(255,233,153);
             padding-left: 7px;
             margin-bottom: 15px;
             margin-left: 10px;
+            margin-right: 15px;
             padding-bottom: 10px;
-
+            margin-top: 10px;
         }
 
         .div2 {
@@ -57,7 +58,7 @@
         .div5:hover {
             /*background-color: #000000;*/
             /*background-color: #F7E496;*/
-            background-color: rgba(255, 199, 0, 0.4);
+            background-color: rgb(255,233,153);
 
         }
         .person_img{
@@ -81,7 +82,7 @@
             color: black;
             margin-bottom: 20px;
             margin-top: 10px;
-            float: right;
+            margin-left: 50%;
         }
         /*body {
             background-image: url('img/background.jpg');
@@ -93,8 +94,14 @@
             background-image: url('img/background03.png');
             background-size: cover;
             background-attachment: scroll;
+        }*/
+        body {
+            background-image: url('img/background05.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
         }
-*/
+
 
     </style>
 </head>
@@ -202,6 +209,54 @@
                     <div class="checkbox">
                         <label><input type="checkbox" rel="athletic" onchange="change();"/>Athletic</label>
                     </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="night_owl" onchange="change();"/>Night Owl</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="morning_bird" onchange="change();"/>Morning Bird</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="introvert" onchange="change();"/>Introvert</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" rel="extrovert" onchange="change();"/>Extrovert</label>
+                    </div>
+
+                    <br>
+                    <h3 style="margin: 0px;"> Language Preference </h3>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="english" onchange="change();"/>English</label>
+                    </div>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="french" onchange="change();"/>French</label>
+                    </div>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="mandarin" onchange="change();"/>Mandarin Chinese</label>
+                    </div>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="cantonese" onchange="change();"/>Cantonese Chinese</label>
+                    </div>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="spanish" onchange="change();"/>Spanish</label>
+                    </div>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="russian" onchange="change();"/>Russian</label>
+                    </div>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="japanese" onchange="change();"/>Japanese</label>
+                    </div>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="korean" onchange="change();"/>Korean</label>
+                    </div>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="tagalog" onchange="change();"/>Tagalog</label>
+                    </div>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="persian" onchange="change();"/>Persian</label>
+                    </div>
+                    <div class = "checkbox">
+                        <label><input type="checkbox" rel="german" onchange="change();"/>German</label>
+                    </div>
 
                 </div> <!-- End processors div -->
             </div>
@@ -210,7 +265,7 @@
 
 
         <div class="div2">
-            <div class = "div5 male pet_friendly athletic"> 
+            <div class = "div5 male pet_friendly english extrovert night_owl"> 
                 <a href="https://solitude233-ui.github.io/QUmate/roommate_info.html" class="nav-link">
                 <img class = "person_img" src="img/people/sample_roommate01.jpg" alt="Harry Potter">
                 </a>
@@ -225,7 +280,7 @@
                 <p style="font-size:80%; float: left" class="small"> <i> 3rd year, Engineering </i></p>
             </div>
 
-            <div class = "div5 male cannabis pet_friendly"> 
+            <div class = "div5 male cannabis pet_friendly english extrovert"> 
                 <img class = "person_img" src="img/people/sample_roommate02.jpg" alt="Ron Weasley">
                 <h2 style="float: left" class = "small">Ron Weasley</h2>
                 <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
@@ -238,7 +293,7 @@
                 <p style="font-size:80%; float: left" class="small"> <i> 2nd year, Art-Sci </i></p>
             </div>
 
-            <div class = "div5 female studious athletic"> 
+            <div class = "div5 female studious athletic english german extrovert"> 
                 <img class = "person_img" src="img/people/sample_roommate03.jpg" alt="Ginny Weasley">
                 <h2 style="float: left" class = "small">Ginny Weasley</h2>
                 <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
@@ -246,12 +301,12 @@
                 <p style="font-size:150%; float: left" class = "small"> 19 years old </h3> 
                 <p class = "small gender_box"> Female </h3> 
 
-                <p style="float: left"class = "small"> Hi everyone, I'm a Commerce student looking for another roommate ...</p>
+                <p style="float: left"class = "small"> Hi everyone, I'm a commerce student looking for another room...</p>
 
                 <p style="font-size:80%; float: left" class="small"> <i> 1st year, Commerce </i></p>
             </div>
 
-            <div class = "div5 male pet_friendly cannabis"> 
+            <div class = "div5 male pet_friendly cannabis english introvert"> 
                 <img class = "person_img" src="img/people/sample_roommate05.jpg" alt="Neville Longbottom">
                 <h2 style="float: left" class = "small">Neville Longbottom</h2>
                 <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
@@ -264,7 +319,7 @@
                 <p style="font-size:80%; float: left" class="small"> <i> 2st year, Com-Sci </i></p>
             </div>
 
-            <div class = "div5 female studious athletic"> 
+            <div class = "div5 female studious athletic french russian morning_bird"> 
                 <img class = "person_img" src="img/people/sample_roommate06.jpg" alt="Fleur Delacour">
                 <h2 style="float: left" class = "small">Fleur Delacour</h2>
                 <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
@@ -277,7 +332,7 @@
                 <p style="font-size:80%; float: left" class="small"> <i> 4th year, Con-Ed </i></p>
             </div>
 
-            <div class = "div5 male cannabis smoking"> 
+            <div class = "div5 male cannabis smoking english russian night_owl"> 
                 <img class = "person_img" src="img/people/sample_roommate09.jpg" alt="Draco Malfoy">
                 <h2 style="float: left" class = "small">Draco Malfoy</h2>
                 <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
@@ -290,7 +345,7 @@
                 <p style="font-size:80%; float: left" class="small"> <i> 3rd year, Commerce </i></p>
             </div>  
 
-            <div class = "div5 nonbinary cannabis pet_friendly"> 
+            <div class = "div5 nonbinary cannabis pet_friendly english korean extrovert"> 
                 <img class = "person_img" src="img/people/sample_roommate10.jpg" alt="Luna Lovegood">
                 <h2 style="float: left" class = "small">Luna Lovegood</h2>
                 <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
@@ -303,7 +358,7 @@
                 <p style="font-size:80%; float: left" class="small"> <i> 1st year, Art-Sci </i></p>
             </div>  
 
-            <div class = "div5 male athletic studious cannabis"> 
+            <div class = "div5 male athletic studious cannabis english german extrovert"> 
                 <img class = "person_img" src="img/people/sample_roommate11.jpg" alt="Cedric Diggory">
                 <h2 style="float: left" class = "small">Cedric Diggory</h2>
                 <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
@@ -316,7 +371,7 @@
                 <p style="font-size:80%; float: left" class="small"> <i> 3rd year, Art-Sci </i></p>
             </div>    
 
-            <div class = "div5 female studious pet_friendly"> 
+            <div class = "div5 female studious pet_friendly english introvert french spanish morning_bird"> 
                 <img class = "person_img" src="img/people/sample_roommate12.jpg" alt="Hermione Granger">
                 <h2 style="float: left" class = "small">Hermione Granger</h2>
                 <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
@@ -329,7 +384,7 @@
                 <p style="font-size:80%; float: left" class="small"> <i> 3rd year, Con-Ed </i></p>
             </div>    
 
-            <div class = "div5 female studious athletic"> 
+            <div class = "div5 female studious athletic cantonese night_owl introvert"> 
                 <img class = "person_img" src="img/people/sample_roommate04.jpg" alt="Cho Chang ">
                 <h2 style="float: left" class = "small">Cho Chang &nbsp;&nbsp;&nbsp; </h2>
                 <img style="float: right" src="img/blueCheck.png" alt = "lightblub" width="35" height="35">
