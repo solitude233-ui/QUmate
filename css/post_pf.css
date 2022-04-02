@@ -1,0 +1,124 @@
+html, body {
+    line-height: 1.5;
+}
+
+#title {
+    font-family: 'Neucha', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;   
+    color: red;
+    padding-top: 32px;
+    margin: 0;
+    border: 0;
+}
+
+header button {
+    float: right;
+    margin: 0 5px;
+    background-color: rgb(113, 182, 225);
+    color: white;
+    padding: 10px 5px
+}
+
+
+header button a {
+    text-decoration: none;
+    color: white;
+}
+
+.ul-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;   
+    text-decoration: none;
+    margin: 50px 40px 0;
+    padding: 0;
+}
+
+.ul-nav li {
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    border: solid 2px orange;
+}
+
+.nav-link {
+    color: black;
+    font-size: 22px;  
+    text-decoration: none;
+}
+main{
+    margin-top: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 2px;
+}
+
+.dropbtn {
+    font-family: 'IBM Plex Serif', Georgia;
+    font-weight: bolder;
+    font-size: 22px;
+    background-color: #f1f1f1;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: orange;}
+h1{
+    font-family:'Neucha', Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: center;
+    color: orange;
+}
+h3{
+    font-family: 'IBM Plex Serif', Georgia;
+    font-weight: bolder;
+    color: white;
+    background-color:rgb(141, 207, 230);
+    text-align: left;
+}
+input[type=checkbox]{
+    margin: 2px;
+    padding: 10px;
+}
+
+input[type=submit]{
+background-color:orange;
+border: none;
+  color:aliceblue;
+  padding: 12px 24px;
+  font-family: 'Neucha', Helvetica, sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 6px 2px;
+  cursor: pointer;
+}
+
+footer{
+    margin: 6px;
+}
