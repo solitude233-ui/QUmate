@@ -15,6 +15,15 @@
   text-decoration: none;
 }
 
+.ul-nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;   
+  text-decoration: none;
+  margin: 0px 40px;
+  padding: 0;
+}
+
 .ul-nav li {
   display: block;
   float: left;

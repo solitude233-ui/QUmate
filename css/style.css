@@ -33,6 +33,20 @@ header {
     text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.25);
 }
 
+header button {
+    float: right;
+    margin: 0 5px;
+    background-color: rgb(113, 182, 225);
+    color: white;
+    padding: 10px 5px
+}
+
+
+header button a {
+    text-decoration: none;
+    color: white;
+}
+
 #title {
     font-family: 'Neucha', Helvetica, sans-serif;
     text-align: center;
@@ -48,7 +62,8 @@ header {
     justify-content: center;
     list-style-type: none;   
     text-decoration: none;
-    margin-top: 50px;
+    margin: 50px 40px 0;
+    padding: 0;
 }
 
 .ul-nav li {
@@ -103,21 +118,6 @@ header {
 .mainP {
     display: block;
     background-color: #e7ce84;
-}
-
-
-button {
-    float: right;
-    margin: 0 5px;
-    background-color: rgb(113, 182, 225);
-    color: white;
-    padding: 10px 5px
-}
-
-
-button a {
-    text-decoration: none;
-    color: white;
 }
 
 .blue {

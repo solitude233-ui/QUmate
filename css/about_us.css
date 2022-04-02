@@ -2,6 +2,20 @@ html, body {
     line-height: 1.5;
 }
 
+header button {
+    float: right;
+    margin: 0 5px;
+    background-color: rgb(113, 182, 225);
+    color: white;
+    padding: 10px 5px
+}
+
+
+header button a {
+    text-decoration: none;
+    color: white;
+}
+
 #title {
     font-family: 'Neucha', Helvetica, sans-serif;
     text-align: center;
@@ -17,7 +31,8 @@ html, body {
     justify-content: center;
     list-style-type: none;   
     text-decoration: none;
-    margin-bottom: 64px;
+    margin: 50px 40px 0;
+    padding: 0;
 }
 
 .ul-nav li {
