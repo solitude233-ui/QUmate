@@ -4,106 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="Sean Guo">
+    <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/style.css">
     <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/find_rmmate.css">
-    <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/style.css" type="text/css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
     <title>QUmate</title>
 
-    <style>
-        .filter_box {
-            width: 210px;          
-            float: left;
-            background-color: rgb(255,233,153);
-            padding-left: 7px;
-            margin-bottom: 15px;
-            margin-left: 10px;
-            margin-right: 15px;
-            padding-bottom: 10px;
-            margin-top: 10px;
-        }
-
-        .div2 {
-            min-width: 20%;
-            max-width: 83%;
-/*            width: 85%;*/
-            float: left;
-            position: static;
-            margin: auto;
-        }
-        .div3 {
-            width: 70%;
-            float: left;
-        }
-        .div4 {
-            width: 30%;
-            float: right;
-        }
-        .small {
-            margin: 0;
-        }
-        .div5 {
-            /* width: 16%; */
-            width: 275px;
-            height: 405px;
-            /*background-color: rgb(150, 0, 0); */
-            background-color: rgb(255, 248, 223); 
-            float: left;
-            margin: 10px;
-            padding: 5px;
-            border: 2px solid black;
-        }
-
-        .div5:hover {
-            /*background-color: #000000;*/
-            /*background-color: #F7E496;*/
-            background-color: rgb(255,233,153);
-
-        }
-        .person_img{
-            width: 100%;
-            height: 260px;
-            overflow: hidden;
-            object-fit: cover;
-      }
-        .gender_box {
-            width: 120px;
-            font-size:150%; 
-            float: right;
-            text-align: right;
-      }
-
-        .blue_box {
-            background-color: rgb(139, 232, 232); 
-            width: 60%;
-            padding: 10px;
-            text-align: center;
-            color: black;
-            margin-bottom: 20px;
-            margin-top: 10px;
-            margin-left: 50%;
-        }
-        /*body {
-            background-image: url('img/background.jpg');
-            background-size: 1000px;
-            background-attachment: fixed;
-            background-position: center;
-        }*/
-        /*body {
-            background-image: url('img/background03.png');
-            background-size: cover;
-            background-attachment: scroll;
-        }*/
-        body {
-            background-image: url('img/background05.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-        }
-
-
-    </style>
 </head>
 <body>
     <header>
@@ -141,126 +48,131 @@
   </nav>
 
     <main>
-        <div class = "filter_box">
-            <h2 style="border-bottom: 2px solid black; margin-right: 5px; margin-bottom: 5px"> Filters </h2>           
-            <h3 style="margin: 0;"> Age </h3>
-            <label for "rent"> Minimum Age: </label>
-            <input type="text" id="age_min" name="age_min">
-            <label for "rent"> Maximum Age: </label>
-            <input type="text" id="age_max" name="age_max"> <br><br>
+        <div class = "left_container">
+            <div class = "filter_box">
+                <h2 style="border-bottom: 2px solid black; margin-right: 5px; margin-bottom: 5px"> Filters </h2>           
+                <h3 style="margin: 0;"> Age </h3>
+                <label for "rent"> Minimum Age: </label>
+                <input type="text" id="age_min" name="age_min">
+                <label for "rent"> Maximum Age: </label>
+                <input type="text" id="age_max" name="age_max"> <br><br>
 
-            <h3 style="margin: 0px;"> Academics </h3>
-            <div class="custom-select" style="display:inline">
-                <select>
-                    <option value="all">Year:</option>
-                    <option value="1">1st year</option>
-                    <option value="2">2nd year</option>
-                    <option value="3">3rd year</option>
-                    <option value="4">4th year</option>
-                    <option value="4">Post Grad</option>
-                </select>
-            </div>
-            <div class="custom-select" style="display:inline">
-                <select>
-                    <option value="all">Program:</option>
-                    <option value="1">Art-Sci</option>
-                    <option value="2">Com-Sci</option>
-                    <option value="3">Commerce</option>
-                    <option value="4">Education</option>
-                    <option value="5">Engineering</option>
-                    <option value="6">Kinesiology</option>
-                    <option value="7">Nursing</option>                    
-                </select>
-            </div>
-            <br> <br>
+                <h3 style="margin: 0px;"> Academics </h3>
+                <div class="custom-select" style="display:inline">
+                    <select>
+                        <option value="all">Year:</option>
+                        <option value="1">1st year</option>
+                        <option value="2">2nd year</option>
+                        <option value="3">3rd year</option>
+                        <option value="4">4th year</option>
+                        <option value="4">Post Grad</option>
+                    </select>
+                </div>
+                <div class="custom-select" style="display:inline">
+                    <select>
+                        <option value="all">Program:</option>
+                        <option value="1">Art-Sci</option>
+                        <option value="2">Com-Sci</option>
+                        <option value="3">Commerce</option>
+                        <option value="4">Education</option>
+                        <option value="5">Engineering</option>
+                        <option value="6">Kinesiology</option>
+                        <option value="7">Nursing</option>                    
+                    </select>
+                </div>
+                <br> <br>
 
-            <div class="filter">
-                <h3 style="margin: 0px;"> Gender </h3>
-                <div class = "models"> 
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="male" onchange="change();"/>Male</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="female" onchange="change();"/>Female</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="nonbinary" onchange="change();"/>Nonbinary</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="other" onchange="change();"/>Other</label>
-                    </div>
-                </div> 
-                <br>
-
-                <h3 style="margin: 0px;">Lifestyle</h3>
-                <div class = "processors"> 
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="smoking" onchange="change();"/>Smoking</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="cannabis" onchange="change();"/>Cannabis </label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="pet_friendly" onchange="change();"/>Pet Friendly</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="studious" onchange="change();"/>Studious</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="athletic" onchange="change();"/>Athletic</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="night_owl" onchange="change();"/>Night Owl</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="morning_bird" onchange="change();"/>Morning Bird</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="introvert" onchange="change();"/>Introvert</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" rel="extrovert" onchange="change();"/>Extrovert</label>
-                    </div>
-
+                <div class="filter">
+                    <h3 style="margin: 0px;"> Gender </h3>
+                    <div class = "models"> 
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="male" onchange="change();"/>Male</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="female" onchange="change();"/>Female</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="nonbinary" onchange="change();"/>Nonbinary</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="other" onchange="change();"/>Other</label>
+                        </div>
+                    </div> 
                     <br>
-                    <h3 style="margin: 0px;"> Language Preference </h3>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="english" onchange="change();"/>English</label>
-                    </div>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="french" onchange="change();"/>French</label>
-                    </div>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="mandarin" onchange="change();"/>Mandarin Chinese</label>
-                    </div>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="cantonese" onchange="change();"/>Cantonese Chinese</label>
-                    </div>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="spanish" onchange="change();"/>Spanish</label>
-                    </div>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="russian" onchange="change();"/>Russian</label>
-                    </div>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="japanese" onchange="change();"/>Japanese</label>
-                    </div>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="korean" onchange="change();"/>Korean</label>
-                    </div>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="tagalog" onchange="change();"/>Tagalog</label>
-                    </div>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="persian" onchange="change();"/>Persian</label>
-                    </div>
-                    <div class = "checkbox">
-                        <label><input type="checkbox" rel="german" onchange="change();"/>German</label>
-                    </div>
 
-                </div> <!-- End processors div -->
+                    <h3 style="margin: 0px;">Lifestyle</h3>
+                    <div class = "processors"> 
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="smoking" onchange="change();"/>Smoking</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="cannabis" onchange="change();"/>Cannabis </label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="pet_friendly" onchange="change();"/>Pet Friendly</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="studious" onchange="change();"/>Studious</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="athletic" onchange="change();"/>Athletic</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="night_owl" onchange="change();"/>Night Owl</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="morning_bird" onchange="change();"/>Morning Bird</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="introvert" onchange="change();"/>Introvert</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" rel="extrovert" onchange="change();"/>Extrovert</label>
+                        </div>
+
+                        <br>
+                        <h3 style="margin: 0px;"> Language Preference </h3>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="english" onchange="change();"/>English</label>
+                        </div>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="french" onchange="change();"/>French</label>
+                        </div>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="mandarin" onchange="change();"/>Mandarin Chinese</label>
+                        </div>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="cantonese" onchange="change();"/>Cantonese Chinese</label>
+                        </div>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="spanish" onchange="change();"/>Spanish</label>
+                        </div>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="russian" onchange="change();"/>Russian</label>
+                        </div>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="japanese" onchange="change();"/>Japanese</label>
+                        </div>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="korean" onchange="change();"/>Korean</label>
+                        </div>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="tagalog" onchange="change();"/>Tagalog</label>
+                        </div>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="persian" onchange="change();"/>Persian</label>
+                        </div>
+                        <div class = "checkbox">
+                            <label><input type="checkbox" rel="german" onchange="change();"/>German</label>
+                        </div>
+
+                    </div> <!-- End processors div -->
+                </div>
             </div>
-
+            <div class = "legend">
+                <h3 style ="margin: 5px"> Your safety is our top priority! </h3>
+                <p style ="margin: 5px"> Every member is a verified Queen’s University Student and follows our code of conduct. As indicated by the blue checkmark. </p>
+            </div>
         </div>
 
 
@@ -397,12 +309,11 @@
                 <p style="font-size:80%; float: left" class="small"> <i> 5th year, Con-Ed </i></p>
             </div>         
         </div>
-        <div class = "div2">
-            <div class = "blue_box">
-                <h3 style ="margin: 5px"> Your safety is our top priority! </h3>
-                <p style ="margin: 5px"> Every member is a verified Queen’s University Student and follows our code of conduct. As indicated by the blue checkmark. </p>
-            </div>
-        </div>
+
+        <!-- <div class = "blue_box">
+            <h3 style ="margin: 5px"> Your safety is our top priority! </h3>
+            <p style ="margin: 5px"> Every member is a verified Queen’s University Student and follows our code of conduct. As indicated by the blue checkmark. </p>
+        </div> -->
 
     </main>
 <script type="text/javascript">
@@ -490,6 +401,19 @@
         hiddenElems[i].style.display = "none";
       }
     }
+
+
+    $(window).load(function () {
+    $(".trigger_popup_fricc").click(function(){
+       $('.hover_bkgr_fricc').show();
+    });
+    $('.hover_bkgr_fricc').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+    });
 </script>
 </body>
 </html>
