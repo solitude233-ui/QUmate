@@ -43,6 +43,28 @@
 		.button-group {
 		display: inline-flex ;
 		}
+
+		.button-group button{
+			color: white;
+			background-color: #f44336;
+			border: none;
+			margin: 5px;
+		}
+
+		.report:hover, .bookmark:hover, .message:hover{
+			opacity: 0.7;
+		}
+
+		.bookmark, .message {
+			object-fit: cover;
+			width: 50px;
+			border: solid white 2px;
+			border-radius: 50%;
+		}
+
+		#address {
+			border-bottom: solid black;
+		}
 		
 		pre {
 			font-family: "Times New Roman", Times, serif;
@@ -120,17 +142,14 @@ Partying Allowed                 Friends Only
 </p>
 			</div>
 			<div class="housePictures">
+				<h2 id="address">288 Division Street</h2>
 				<h3> House of 3 looking for 1 sublet </h3>
-				<div class="button-group">
-					<button class="bookmark">
-						<img src="img/bookmark_icon2.png" alt="bookmark"; width=25px; height=25px>
-					</button>
-					<button class="message">
-						<img src="img/message_icon2.png" alt="message"; width=25px; height=25px>
-					</button>
-					<button class="Report Listing"; width=25px; height=25px>Report Listing</button>
-				</div>
 				<img src="img/houses/sample_house.jpeg" alt="288 Division St" width=270px;>
+				<div class="button-group">
+					<input type="image" src="img/bookmark_icon2.png" class="bookmark">
+					<input type="image" src="img/message_icon2.png" class="message">
+					<button class="report">Report</button>
+				</div>
 			</div>
 			<div class="map">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d11435.317319721498!2d-76.50302156312924!3d44.23117206568973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x4cd2aba8eda26657%3A0x9060dcd3ea739779!2s288%20Division%20Street%2C%20Kingston%2C%20ON!3m2!1d44.2370328!2d-76.4941863!4m5!1s0x4cd2ab0fccd925e9%3A0x268a8a4f5c257211!2sQueen&#39;s%20University%2C%2099%20University%20Ave%2C%20Kingston%2C%20ON%20K7L%203N6!3m2!1d44.2252795!2d-76.49514119999999!5e0!3m2!1sen!2sca!4v1648597359815!5m2!1sen!2sca" width="500" height="375" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
