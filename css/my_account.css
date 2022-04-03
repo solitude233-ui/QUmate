@@ -1,0 +1,205 @@
+header {
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.25);
+}
+
+#title {
+    font-family: 'Neucha', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;   
+    color: red;
+    padding-top: 32px;
+    margin: 0;
+    border: 0;
+}
+
+.ul-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;   
+    text-decoration: none;
+    margin: 50px 40px 0 40px;
+}
+
+.ul-nav li {
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    border: solid 2px orange;
+}
+
+.nav-link {
+    color: black;
+    font-size: 22px;  
+    text-decoration: none;
+    
+}
+
+body, button, .button {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+#edit_account, .feature {
+    background-color: #a4d8e8;
+    border-radius: 5px;
+    padding: 0px 10px 20px 10px;
+}
+
+h2 {
+    border-bottom: 2px solid black;
+}
+
+
+#personal_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.field{
+    margin: 5px;
+}
+
+.field label{
+   padding-right: 10px;
+   display: inline-block;
+   width: 200px;
+
+}
+
+#feature_container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feature {
+    padding: 0 50px;
+}
+
+
+.message, #personal_info, .posting {
+    border: rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    background-color: #c4f0ff;
+}
+
+.message {
+
+    padding: 5px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+
+.message img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.message .text {
+    width: 200px;
+}
+
+.message button, #edit, .button {
+    background-color: white;
+    color: black;
+}
+
+.message button {
+    margin-left: 20px;
+
+    width: 120px;
+    border-radius: 5px;
+}
+
+button:hover, .button:hover {
+    opacity: 0.6;
+}
+
+.text {
+    padding-left: 10px;
+}
+
+.name {
+    font-size: large;
+    margin: 5px 0px;
+}
+
+.desc {
+    margin: 5px 0px;
+}
+
+.posting {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.posting img {
+    width: 250px;
+}
+
+.posting_desc {
+    padding-left: 10px;
+    align-self: center;
+}
+
+#remove {
+    background-color: #e85b51;
+    color: white;
+}
+
+button, .button {
+    border-radius: 5px;
+}
+
+.address, .name {
+    font-size: large;
+    border-bottom: black solid 1px;
+}
+
+.dropbtn {
+    font-family: 'IBM Plex Serif', Georgia;
+    font-weight: bolder;
+    font-size: 22px;
+    color: black;
+    background-color: #f1f1f1;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: orange;}

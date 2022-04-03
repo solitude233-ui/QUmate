@@ -13,9 +13,13 @@
         <title>QUmate</title>
     </head>
     <body>
-        <header>
-            <div id="title">QUmate</div>
-        </header>
+    <header>
+        <div id="title">QUmate</div>
+        <div id="buttons"></div>
+            <button class="log_in"><a href="https://solitude233-ui.github.io/QUmate/log_in.html">Sign in</a></button>
+            <button class="my_account"><a href="https://solitude233-ui.github.io/QUmate/my_account.html">My Account</a></button>
+        </div>
+    </header>
 
         <nav>
             <ul class="ul-nav">
@@ -23,16 +27,22 @@
                     <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
                 </li>
                 <li>
-                    <a href="https://solitude233-ui.github.io/QUmate/find_room.html" class="nav-link">Find a room</a>
+                    <a href="https://solitude233-ui.github.io/QUmate/find_room.html" class="nav-link">Find housing</a>
                 </li>
                 <li>
                     <a href="https://solitude233-ui.github.io/QUmate/find_roomate.html" class="nav-link">Find a roommate</a>
                 </li>
                 <li class="mainP">
-                    <a href="https://solitude233-ui.github.io/QUmate/post_room.html" class="nav-link">Post a room</a>
+                        <div class="dropdown">
+                        <button class="dropbtn">Post</button>
+                        <div class="dropdown-content">
+                            <a href="https://solitude233-ui.github.io/QUmate/post_room.html" class="nav-link">Post your housing</a>
+                            <a href="https://solitude233-ui.github.io/QUmate/post_profile.html" class="nav-link">Post your profile</a>
+                        </div>
+                      </div>
                 </li>
                 <li>
-                    <a href="about_us.html" class="nav-link">About us</a>
+                    <a href="https://solitude233-ui.github.io/QUmate/about_us.html" class="nav-link">About us</a>
                 </li>
             </ul>
         </nav>
@@ -97,13 +107,20 @@
                 <label for="feature3"> Internet</label><br>
 
             </div>
-
+            <h3>Rules:</h3>
+            <input type="checkbox" id="rule1" name="rule1" value="Pets friendly">
+            <label for="feature1"> Pets friendly</label><br>
+            <input type="checkbox" id="rule2" name="rule2" value="Smoking friendly">
+            <label for="feature2"> Smoking friendly</label><br>
+            <input type="checkbox" id="rule3" name="rule3" value="Cannabis friendly">
+            <label for="feature3"> Cannabis friendly </label><br>
+            
             <h3>Features & Amenities:</h3>
 
-            <input type="checkbox" id="feature1" name="feature1" value="Parking">
-            <label for="feature1"> Parking</label><br>
-            <input type="checkbox" id="feature2" name="feature2" value="Pets friendly">
-            <label for="feature2"> Pets friendly</label><br>
+            <input type="checkbox" id="feature1" name="feature1" value="Accessibility">
+            <label for="feature1"> Wheelchair Accessible</label><br>
+            <input type="checkbox" id="feature2" name="feature2" value="Parking">
+            <label for="feature2"> Parking</label><br>
             <input type="checkbox" id="feature3" name="feature3" value="Laundry1">
             <label for="feature3"> Laundry (in building) </label><br>
             <input type="checkbox" id="feature4" name="feature4" value="Laundry2">

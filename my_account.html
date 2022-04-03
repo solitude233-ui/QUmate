@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="Josh Tremblay">
+    <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/my_account.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <title>QUmate</title>
+</head>
+<body>
+    <header>
+            <div id="title">QUmate</div>
+        </header>
+
+        <nav>
+            <ul class="ul-nav">
+                <li>
+                    <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="https://solitude233-ui.github.io/QUmate/find_room.html" class="nav-link">Find housing</a>
+                </li>
+                <li>
+                    <a href="https://solitude233-ui.github.io/QUmate/find_roomate.html" class="nav-link">Find a roommate</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Post</button>
+                        <div class="dropdown-content">
+                            <a href="https://solitude233-ui.github.io/QUmate/post_room.html" class="nav-link">Post your housing</a>
+                            <a href="https://solitude233-ui.github.io/QUmate/post_profile.html" class="nav-link">Post your profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://solitude233-ui.github.io/QUmate/about_us.html" class="nav-link">About us</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>My Account</h1>
+            <div id="edit_account">
+                <h2>Edit Personal Data</h2>
+                <p>Review or edit your personal information</p>
+                <p>* Required</p>
+                <form id="personal_info">
+                    <span class="field">
+                        <label for="first_name">* First Name</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </span>
+                    <span class="field">
+                        <label for="last_name">* Last Name</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </span>
+                    <span class="field">
+                        <label for="username">* Username</label>
+                        <input type="text" id="username" name="username">
+                    </span>
+                    <span class="field">
+                        <label for="email">* Email</label>
+                        <input type="email" id="email" name="email">
+                    </span>
+                    <span class="field">
+                        <label for="email_confirm">* Confirm Email</label>
+                        <input type="email" id="email_confirm" name="email_confirm">
+                    </span>
+                    <span class="field">
+                        <label for="password">* Password</label>
+                        <input type="password" id="password" name="password">
+                    </span>
+                    <span class="field">
+                        <label for="pass_confirm">* Confirm Password</label>
+                        <input type="password" id="pass_confirm" name="pass_confirm">
+                    </span>
+                    <span class="field">
+                        <input type="submit" value="Update" class="button">
+                        <input type="reset" value="Cancel" class="button">
+                    </span>
+                </form>
+            </div>
+
+            <div id="feature_container">
+                <div class="feature">
+                    <h2>My Messages</h2>
+                    <div class="message">
+                        <img src="https://solitude233-ui.github.io/QUmate/img/people/sample_roommate01.jpg" alt="User Icon">
+                        <span class="text">
+                            <p class="name">Harry Potter</p>
+                            <p class="desc">Sent you a message</p>
+                        </span>
+                        <button type="button">View Conversation</button>
+                    </div>
+                    <div class="message">
+                        <img src="https://solitude233-ui.github.io/QUmate/img/people/sample_roommate12.jpg" alt="User Icon">
+                        <span class="text">
+                            <p class="name">Hermione Granger</p>
+                            <p class="desc">You sent a message</p>
+                        </span>
+                        <button type="button">View Conversation</button>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <h2>Manage My Postings</h2>
+                    <div class="posting">
+                        <img src="https://solitude233-ui.github.io/QUmate/img/houses/sample_house.jpeg" alt="House posting icon">
+                        <span class="posting_desc">
+                            <p class="address">288 Division Street</p>
+                            <button type="button" id="edit">Edit Posting</button>
+                            <button type="button" id="remove">Remove Posting</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </main>
+</body>
+</html>

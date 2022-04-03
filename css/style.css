@@ -3,6 +3,10 @@ html, body {
     padding: 0;
     border: 0;
     line-height: 1.5;
+    background-image: url('https://github.com/solitude233-ui/QUmate/blob/main/img/background05.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 main {
@@ -19,14 +23,37 @@ body {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 16px;
     color: black;
+    /*background-image: url('img/background05.png'); 
+    background-image: url('https://github.com/solitude233-ui/QUmate/blob/main/img/background05.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
 }
 
-main {
+*main {
     background-color: #fffefb;
+    /* background-image: url('img/background05.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
 }
 
 header {
     text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.25);
+}
+
+header button {
+    float: right;
+    margin: 0 5px;
+    background-color: rgb(113, 182, 225);
+    color: white;
+    padding: 10px 5px
+}
+
+
+header button a {
+    text-decoration: none;
+    color: white;
 }
 
 #title {
@@ -44,6 +71,9 @@ header {
     justify-content: center;
     list-style-type: none;   
     text-decoration: none;
+    margin: 50px 40px 0;
+    margin-bottom: 50px;
+    padding: 0;
 }
 
 .ul-nav li {
@@ -60,19 +90,44 @@ header {
     text-decoration: none;
 }
 
+.dropbtn {
+    font-family: 'IBM Plex Serif', Georgia;
+    font-weight: bolder;
+    font-size: 22px;
+    background-color: #f1f1f1;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: orange;}
+
 .mainP {
     display: block;
     background-color: #e7ce84;
-}
-
-.log_in {
-    float: right;
-    Margin: 32px;
-    background-color: lightskyblue;
-}
-
-.log_in a {
-    text-decoration: none;
 }
 
 .blue {

@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="Sean Guo">
-        <link rel="stylesheet" href="C:\Users\233\QUmate\css\about_us.css">
+        <meta name="viewport" content="Josh Tremblay">
         <link rel="stylesheet" href="https://solitude233-ui.github.io/QUmate/css/about_us.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
@@ -14,6 +13,10 @@
     <body>
         <header>
             <div id="title">QUmate</div>
+            <div id="buttons"></div>
+                <button class="log_in"><a href="https://solitude233-ui.github.io/QUmate/log_in.html">Sign in</a></button>
+                <button class="my_account"><a href="https://solitude233-ui.github.io/QUmate/my_account.html">My Account</a></button>
+            </div>
         </header>
 
         <nav>
@@ -22,67 +25,77 @@
                     <a href="https://solitude233-ui.github.io/QUmate/index.html" class="nav-link">Home</a>
                 </li>
                 <li>
-                    <a href="https://solitude233-ui.github.io/QUmate/find_room.html" class="nav-link">Find a room</a>
+                    <a href="https://solitude233-ui.github.io/QUmate/find_room.html" class="nav-link">Find housing</a>
                 </li>
                 <li>
                     <a href="https://solitude233-ui.github.io/QUmate/find_roomate.html" class="nav-link">Find a roommate</a>
                 </li>
                 <li>
-                    <a href="https://solitude233-ui.github.io/QUmate/post_room.html" class="nav-link">Post a room</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Post</button>
+                        <div class="dropdown-content">
+                            <a href="https://solitude233-ui.github.io/QUmate/post_room.html" class="nav-link">Post your housing</a>
+                            <a href="https://solitude233-ui.github.io/QUmate/post_profile.html" class="nav-link">Post your profile</a>
+                        </div>
+                    </div>
                 </li>
                 <li class="mainP">
-                    <a href="about_us.html" class="nav-link">About us</a>
+                    <a href="https://solitude233-ui.github.io/QUmate/about_us.html" class="nav-link">About us</a>
                 </li>
             </ul>
         </nav>
 
         <main>
-            <h1>Our Code of Conduct</h1>
-            <div id="conduct">
-                <h2>Behaviour</h2>
-                <p>
-                    QUmate strives to implement a housing and roommate finding service that is
-                    free of judgement of any sorts for all to enjoy. By creating an account with QUmate, you agree to:
-                </p>
-                <ol>
-                    <li>Treat all other users with respect</li>
-                    <li>Not participate in bullying or inappropriate behaviours</li>
-                    <li>Not discriminate against other users for any reason.</li>
-                    <li>Chat with other users for the sole purpose of finding potential housing and/or potential roommate.</li>
-                    <li>Provide accurate and valid information about yourself and/or the housing you are listing.</li>
-                </ol>
-                <p>
-                    Failing to meet these conditions can lead to account and postings removal as well as a report to authorities when applicable.
-                </p>
-                <h2>Security</h2>
-                <p>
-                    Our team also highly values our user's confidentiality. We aim to provide a secure
-                    environment that protects our user's data and personal information. Additionally,
-                    we will ensure that all listings are validated, and our users are validated before use
-                    in our site. We also value input from our users in detecting suspicious accounts and/or postings.
-                </p>
-                <p>
-                    Although we place emphasis on security, it is important that users employ methods that keep themselves secure. This could include:
-                </p>
-                <ol>
-                    <li>Only messaging users on our platform until trust is built</li>
-                    <li>Only transferring money to users after viewing housing and meeting the roommates living there</li>
-                    <li>If a posting appears suspicious, remain cautious and report it if needed</li>
-                    <li>Ensure you have someone you know that can assist in viewing housing and/or roommates</li>
-                    <li>If a situation appears to be unsafe, call someone you know for assistance</li>
-                </ol>
-                <p>
-                    <strong>For any possible inquiries or questions you can contact us through email at <u>support@qumate.com</u></strong>
-                </p>
+            <div class="section">
+                <h1>Our Code of Conduct</h1>
+                <div id="conduct">
+                    <h2>Behaviour</h2>
+                    <p>
+                        QUmate strives to implement a housing and roommate finding service that is
+                        free of judgement of any sorts for all to enjoy. By creating an account with QUmate, you agree to:
+                    </p>
+                    <ol>
+                        <li>Treat all other users with respect</li>
+                        <li>Not participate in bullying or inappropriate behaviours</li>
+                        <li>Not discriminate against other users for any reason.</li>
+                        <li>Chat with other users for the sole purpose of finding potential housing and/or potential roommate.</li>
+                        <li>Provide accurate and valid information about yourself and/or the housing you are listing.</li>
+                    </ol>
+                    <p>
+                        Failing to meet these conditions can lead to account and postings removal as well as a report to authorities when applicable.
+                    </p>
+                    <h2>Security</h2>
+                    <p>
+                        Our team also highly values our user's confidentiality. We aim to provide a secure
+                        environment that protects our user's data and personal information. Additionally,
+                        we will ensure that all listings are validated, and our users are validated before use
+                        in our site. We also value input from our users in detecting suspicious accounts and/or postings.
+                    </p>
+                    <p>
+                        Although we place emphasis on security, it is important that users employ methods that keep themselves secure. This could include:
+                    </p>
+                    <ol>
+                        <li>Only messaging users on our platform until trust is built</li>
+                        <li>Only transferring money to users after viewing housing and meeting the roommates living there</li>
+                        <li>If a posting appears suspicious, remain cautious and report it if needed</li>
+                        <li>Ensure you have someone you know that can assist in viewing housing and/or roommates</li>
+                        <li>If a situation appears to be unsafe, call someone you know for assistance</li>
+                    </ol>
+                    <p>
+                        <strong>For any possible inquiries or questions you can contact us through email at <u>support@qumate.com</u></strong>
+                    </p>
+                </div>
             </div>
 
-            <h1>Our Team</h1>
-            <div class="team">
-                <p>Aidan Richards</p>
-                <p>Alice Cehic</p>
-                <p>Josh Tremblay</p>
-                <p>Sammi Wang</p>
-                <p>Sean Guo</p>
+            <div class="section">
+                <h1>Our Team</h1>
+                <div class="team">
+                    <p>Aidan Richards</p>
+                    <p>Alice Cehic</p>
+                    <p>Josh Tremblay</p>
+                    <p>Sammi Wang</p>
+                    <p>Sean Guo</p>
+                </div>
             </div>
 
         </main>

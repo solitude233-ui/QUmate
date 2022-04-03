@@ -2,32 +2,14 @@ html, body {
     line-height: 1.5;
 }
 
-main {
-    margin: 4px;
-    padding: 4px;
-}
-
-footer {
-    margin: 4px;
-    padding: 4px;    
-}
-
-body {
-    font-family: 'IBM Plex Serif', Georgia, serif;
-    font-size: 16px;
-    color: black;
-    background-image: url('img/background05.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-main {
-    background-color: #fffefb;
-}
-
-header {
-    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.25);
+#title {
+    font-family: 'Neucha', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;   
+    color: red;
+    padding-top: 32px;
+    margin: 0;
+    border: 0;
 }
 
 header button {
@@ -42,16 +24,6 @@ header button {
 header button a {
     text-decoration: none;
     color: white;
-}
-
-#title {
-    font-family: 'Neucha', Helvetica, sans-serif;
-    text-align: center;
-    font-size: 50px;   
-    color: red;
-    padding-top: 32px;
-    margin: 0;
-    border: 0;
 }
 
 .ul-nav {
@@ -76,12 +48,17 @@ header button a {
     font-size: 22px;  
     text-decoration: none;
 }
+main{
+    margin-top: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 2px;
+}
 
 .dropbtn {
     font-family: 'IBM Plex Serif', Georgia;
     font-weight: bolder;
     font-size: 22px;
-    color: black;
     background-color: #f1f1f1;
     border: none;
   }
@@ -112,45 +89,36 @@ header button a {
   .dropdown:hover .dropdown-content {display: block;}
 
   .dropdown:hover .dropbtn {background-color: orange;}
-
-.mainP {
-    display: block;
-    background-color: #e7ce84;
-}  
-
-.team p, #conduct {
-    background-color: #bfeefd;
-    border-radius: 12px;
-}
-
-.team, #conduct {
-    margin: 10px;
-}
-
-.team{
-    display: flex;
-    flex-direction: column;
-}
-
-.team p{
-    margin: 5px;
-    height: 50px;
-    width: 300px;
-    font-size: larger;
+h1{
+    font-family:'Neucha', Helvetica, sans-serif;
+    font-size: 42px;
     text-align: center;
+    color: orange;
+}
+h3{
+    font-family: 'IBM Plex Serif', Georgia;
+    font-weight: bolder;
+    color: white;
+    background-color:rgb(141, 207, 230);
+    text-align: left;
+}
+input[type=checkbox]{
+    margin: 2px;
+    padding: 10px;
 }
 
-#conduct {
-    max-width: 700px;
-    padding: 5px 10px;
+input[type=submit]{
+background-color:orange;
+border: none;
+  color:aliceblue;
+  padding: 12px 24px;
+  font-family: 'Neucha', Helvetica, sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 6px 2px;
+  cursor: pointer;
 }
 
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.section {
-    justify-content: center;
+footer{
+    margin: 6px;
 }
